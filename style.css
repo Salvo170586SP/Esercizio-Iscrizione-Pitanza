@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+#contenitore {
+    width: 1200px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 50px;
+    color: white;
+}
+
+
+/* --- HEADER --- */
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.sottotitolo {
+    color: orange;
+}
+
+
+/* ---  BARRA DI NAVIGAZIONE ---  */
+
+nav {
+    background-color: orange;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav button {
+    margin: 5px;
+}
+
+
+/* --- SEZIONE MONOPATTINI --- */
+
+section {
+    margin-top: 15px;
+}
+
+.nome-monopattino {
+    display: inline-block;
+}
+
+.indirizzo-monopattino::before {
+    content: "\21A6";
+}
+
+.carica-monopattino {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.gino {
+    width: 300px;
+    background-color: orange;
+}
+
+.mike {
+    width: 500px;
+    background-color: green;
+}
+
+.fede {
+    width: 200px;
+    background-color: red;
+}
